@@ -71,13 +71,13 @@ fun EditTextFieldCompose() {
             readOnly = true,
             isError = isError,
         )
-        if (isError) {
-            Text(
-                text = "please enter number",
-                color = Color.Red,
-                fontSize = 10.sp
-            )
-        }
+//        if (isError) {
+//            Text(
+//                text = "please enter number",
+//                color = Color.Red,
+//                fontSize = 10.sp
+//            )
+//        }
 
         Spacer(modifier = Modifier.height(10.dp))
 
